@@ -73,7 +73,7 @@ library(edgeR) # Package for differential gene expression analysis of RNA-seq da
 counts <- read.csv("rawCounts.tsv",header=TRUE,sep="\t")
 
 # Import study design file
-targets<- read.csv("phenodata.txt",sep="\t",header=TRUE)
+targets<- read.csv("phenodata_age.txt",sep="\t",header=TRUE)
 
 # Add column names
 colnames(counts) <-targets$Filename
