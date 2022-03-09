@@ -1,0 +1,156 @@
+Sample	Filename	Type	Health	Sex	BMI	Age	NGS	Variant	Previous_ca	Color	Healthy2	Healthy3	Healthy_now	step_3	Age_2	Age_3	BMI_2	Variant_2	Health_2	Previous_ca_2	Status_
+sample001.tsv	LS_1	LS	Healthy	f	29,7	75,2	two	MLH1	0	red	YES	YES	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Never	Healthy
+sample002.tsv	LS_2	LS	Healthy	m	NA	47,2	one	MSH2	0	blue	YES	YES	YES	NO	Under60	Under50	NA	MSH2	Healthy	Never	Healthy
+sample003.tsv	LS_3	LS	Healthy	f	22,7	66,7	three	MLH1	0	red	YES	YES	YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample004.tsv	LS_4	LS	Healthy	m	23,3	44,9	one	MLH1	1	blue			YES	YES	Under60	Under50	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample005.tsv	LS_5	LS	Healthy	m	NA	58,5	two	MLH1	0	blue	YES	YES	YES	YES	Under60	fr50to60	NA	MLH1	Healthy	Never	Healthy
+sample006.tsv	LS_6	LS	Future_ca	m	NA	79,6	three	MLH1	0	blue		NO	NO	YES	Over60	Over60	NA	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample007.tsv	LS_7	LS	Healthy	f	27,5	56,4	one	MSH6	0	red	YES	YES	YES	NO	Under60	fr50to60	Over25	MSH6	Healthy	Never	Healthy
+sample008.tsv	LS_8	LS	Healthy	m	22,3	48,4	one	MLH1	1	blue			YES	YES	Under60	Under50	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample009.tsv	LS_9	LS	Healthy	f	27,4	68,2	one	MSH2	1	red			YES	NO	Over60	Over60	Over25	MSH2	Healthy	Prev_ca	Healthy
+sample010.tsv	LS_10	LS	Polyp	m	28,1	46,4	one	MLH1	0	blue		YES	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample011.tsv	LS_11	LS	Healthy	f	24,9	52,6	two	MLH1	1	red			YES	YES	Under60	fr50to60	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample012.tsv	LS_12	LS	Cancer	m	29,1	33,7	one	MLH1	1	blue	NO		NO	YES	Under60	Under50	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample013.tsv	LS_13	LS	Healthy	m	28,1	47,1	one	MSH2	1	blue			YES	NO	Under60	Under50	Over25	MSH2	Healthy	Prev_ca	Healthy
+sample014.tsv	LS_14	LS	Healthy	f	25,5	52,2	one	MLH1	0	red	YES	YES	YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Never	Healthy
+sample015.tsv	LS_15	LS	Healthy	f	25,4	47,4	one	MLH1	0	red	YES	YES	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample016.tsv	LS_16	LS	Adenoma	m	26,9	72,6	three	MLH1	1	blue		NO	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample017.tsv	LS_17	LS	Polyp	m	19,8	66,1	two	MLH1	0	blue			YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample018.tsv	CT_1	CTRL	Healthy	f	21,9	55	one	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample019.tsv	LS_18	LS	Healthy	m	NA	59,7	two	MLH1	0	blue	YES		YES	YES	Under60	fr50to60	NA	MLH1	Healthy	Never	Healthy
+sample020.tsv	LS_19	LS	Adenoma	m	30,1	70,5	three	MLH1	0	blue		NO	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Never	Healthy
+sample021.tsv	LS_20	LS	Polyp	m	31,5	71	three	MLH1	1	blue			YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample022.tsv	LS_21	LS	Adenoma	f	32,5	60,3	three	MLH1	1	red		NO	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample023.tsv	CT_2	CTRL	Healthy	f	49,6	59	three	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample024.tsv	LS_22	LS	Adenoma	f	NA	67	one	MLH1	1	red		NO	YES	YES	Over60	Over60	NA	MLH1	Healthy	Prev_ca	Healthy
+sample025.tsv	LS_23	LS	Healthy	f	NA	59,6	two	MLH1	0	red	YES	YES	YES	YES	Under60	fr50to60	NA	MLH1	Healthy	Never	Healthy
+sample026.tsv	LS_24	LS	Adenoma	m	25,3	49,8	three	PMS2	1	blue		NO	YES	NO	Under60	Under50	Over25	PMS2	Healthy	Prev_ca	Healthy
+sample027.tsv	LS_25	LS	Healthy	f	23,2	61,2	one	MLH1	0	red	YES	YES	YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample028.tsv	CT_3	CTRL	Healthy	f	20,9	49	one	NA	NA						Under60	Under50	Under25	None	Healthy		Healthy
+sample029.tsv	LS_26	LS	Healthy	f	29,2	47,6	one	MSH2	1	red			YES	NO	Under60	Under50	Over25	MSH2	Healthy	Prev_ca	Healthy
+sample030.tsv	SR_1	SRME	Cancer	f	30,9	62,3	three	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample031.tsv	CT_4	CTRL	Healthy	f	23,6	42	three	NA	NA						Under60	Under50	Under25	None	Healthy		Healthy
+sample032.tsv	LS_27	LS	Cancer	m	29,1	45,2	one	MLH1	0	blue	NO		NO	YES	Under60	Under50	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample033.tsv	LS_28	LS	Future_ca	f	26,7	63,2	three	MLH1	0	red		NO	NO	YES	Over60	Over60	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample034.tsv	LS_29	LS	Healthy	f	19	70,9	two	MSH2	0	red	YES	YES	YES	NO	Over60	Over60	Under25	MSH2	Healthy	Never	Healthy
+sample035.tsv	LS_30	LS	Healthy	m	26	68,8	two	MSH6	0	blue	YES	YES	YES	NO	Over60	Over60	Over25	MSH6	Healthy	Never	Healthy
+sample036.tsv	LS_31	LS	Healthy	f	23	81	two	MSH2	1	red			YES	NO	Over60	Over60	Under25	MSH2	Healthy	Prev_ca	Healthy
+sample037.tsv	CT_5	CTRL	Healthy	m	26,6	40	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample038.tsv	CT_6	CTRL	Healthy	m	25,9	41	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample039.tsv	CT_7	CTRL	Healthy	m	30	70	three	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample040.tsv	CT_8	CTRL	Healthy	m	22,9	52	three	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample041.tsv	LS_32	LS	Healthy	f	28,5	67,4	two	MSH6	1	red			YES	NO	Over60	Over60	Over25	MSH6	Healthy	Prev_ca	Healthy
+sample042.tsv	LS_33	LS	Healthy	m	21,7	68,9	three	MLH1	0	blue	YES	YES	YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample043.tsv	LS_34	LS	Healthy	m	24,4	70	one	MSH6	1	blue			YES	NO	Over60	Over60	Under25	MSH6	Healthy	Prev_ca	Healthy
+sample044.tsv	LS_35	LS	Healthy	m	32,1	47,4	one	MLH1	0	blue	YES	YES	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample045.tsv	SR_2	SRME	Cancer	m	24	67,6	three	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample046.tsv	CT_9	CTRL	Healthy	f	25,8	48	one	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample047.tsv	SR_3	SRME	Cancer	f	26,8	75,4	three	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample048.tsv	LS_36	LS	Healthy	f	27	55,6	one	MLH1	1	red			YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample049.tsv	LS_37	LS	Healthy	f	18	47,8	one	MLH1	0	red	YES	YES	YES	YES	Under60	Under50	Under25	MLH1	Healthy	Never	Healthy
+sample050.tsv	CT_10	CTRL	Healthy	m	25,7	47	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample051.tsv	LS_38	LS	Healthy	f	22,2	56	two	MLH1	1	red			YES	YES	Under60	fr50to60	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample052.tsv	CT_11	CTRL	Healthy	m	25,8	58	three	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample053.tsv	CT_12	CTRL	Healthy	m	32	52	two	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample054.tsv	LS_39	LS	Healthy	f	26,5	54	two	MSH2	1	red			YES	NO	Under60	fr50to60	Over25	MSH2	Healthy	Prev_ca	Healthy
+sample055.tsv	LS_40	LS	Adenoma	m	26,9	64,6	one	MSH6	1	blue		NO	YES	NO	Over60	Over60	Over25	MSH6	Healthy	Prev_ca	Healthy
+sample056.tsv	LS_41	LS	Healthy	m	21,7	77,5	one	MSH6	1	blue			YES	NO	Over60	Over60	Under25	MSH6	Healthy	Prev_ca	Healthy
+sample057.tsv	SR_4	SRME	Cancer	f	19,8	73,2	three	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample058.tsv	SR_5	SRME	Cancer	f	32,4	66,2	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample059.tsv	SR_6	SRME	Cancer	m	27,4	63,6	two	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample060.tsv	LS_42	LS	Healthy	f	30,4	55,7	one	MSH2	0	red	YES	YES	YES	NO	Under60	fr50to60	Over25	MSH2	Healthy	Never	Healthy
+sample061.tsv	SR_7	SRME	Cancer	f	19,4	76,3	three	NA	NA			NO			Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample062.tsv	CT_13	CTRL	Healthy	f	28,7	74	two	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample063.tsv	LS_43	LS	Cancer	m	23,2	71,7	three	MSH6	1	blue	NO	NO	NO	NO	Over60	Over60	Under25	MSH6	Path_MMR_ca	Current_ca	Cancer
+sample064.tsv	LS_44	LS	Healthy	f	23,7	69,7	one	MLH1	1	red			YES	YES	Over60	Over60	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample065.tsv	SR_8	SRME	Cancer	f	24,6	77,6	three	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample066.tsv	LS_45	LS	Healthy	m	27,5	73,2	one	MSH6	0	blue	YES	YES	YES	NO	Over60	Over60	Over25	MSH6	Healthy	Never	Healthy
+sample067.tsv	SR_9	SRME	Cancer	m	38,3	67,4	two	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample068.tsv	LS_46	LS	Healthy	m	22,8	43,7	two	MLH1	0	blue	YES	YES	YES	YES	Under60	Under50	Under25	MLH1	Healthy	Never	Healthy
+sample069.tsv	LS_47	LS	Healthy	f	NA	57,2	one	MLH1	1	red			YES	YES	Under60	fr50to60	NA	MLH1	Healthy	Prev_ca	Healthy
+sample070.tsv	LS_48	LS	Healthy	f	19,5	38,7	two	MSH6	0	red	YES	YES	YES	NO	Under60	Under50	Under25	MSH6	Healthy	Never	Healthy
+sample071.tsv	CT_14	CTRL	Healthy	m	23,9	59	three	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample072.tsv	CT_15	CTRL	Healthy	m	31	37	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample073.tsv	CT_16	CTRL	Healthy	m	19	43	three	NA	NA						Under60	Under50	Under25	None	Healthy		Healthy
+sample074.tsv	SR_10	SRME	Cancer	m	34,6	85,6	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample075.tsv	SR_11	SRME	Cancer	m	23,7	72,7	three	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample076.tsv	CT_17	CTRL	Healthy	m	35,3	43	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample077.tsv	LS_49	LS	Polyp	m	22,9	63,2	three	MLH1	1	blue			YES	YES	Over60	Over60	Under25	MLH1	Healthy	Prev_ca	Healthy
+sample078.tsv	CT_18	CTRL	Healthy	m	27,2	64	three	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample079.tsv	CT_19	CTRL	Healthy	f	27,1	77	two	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample080.tsv	CT_20	CTRL	Healthy	m	30	69	three	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample081.tsv	CT_21	CTRL	Healthy	f	24,2	78	two	NA	NA						Over60	Over60	Under25	None	Healthy		Healthy
+sample082.tsv	LS_50	LS	Healthy	f	26,4	56,2	one	MLH1	1	red			YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample083.tsv	LS_51	LS	Healthy	f	40,2	48,9	one	MLH1	0	red	YES	YES	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample084.tsv	SR_12	SRME	Cancer	f	21	75,9	two	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample085.tsv	CT_22	CTRL	Healthy	f	22	54	one	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample086.tsv	CT_23	CTRL	Healthy	f	35,5	53	one	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample087.tsv	SR_13	SRME	Cancer	f	30,8	66,1	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample088.tsv	SR_14	SRME	Cancer	f	25,6	77,6	two	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample089.tsv	LS_52	LS	Healthy	m	24,1	60,8	one	MSH2	1	blue			YES	NO	Over60	Over60	Under25	MSH2	Healthy	Prev_ca	Healthy
+sample090.tsv	LS_53	LS	lienalis tubulovillosum et tubulare, sigmoid tubulovillosum et tubulare, rectum tubulare	m	27,4	61,3	two	MSH2	0	blue			YES	NO	Over60	Over60	Over25	MSH2	Healthy	Never	Healthy
+sample091.tsv	LS_54	LS	Adenoma	f	34,9	57,9	three	MLH1	0	red		NO	YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Never	Healthy
+sample092.tsv	CT_24	CTRL	Healthy	m	26	59	two	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample093.tsv	CT_25	CTRL	Healthy	m	26,9	64	three	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample094.tsv	LS_55	LS	Healthy	m	NA	80,7	three	MLH1	1	blue			YES	YES	Over60	Over60	NA	MLH1	Healthy	Prev_ca	Healthy
+sample095.tsv	LS_56	LS	Adenoma	f	21	59,2	two	MLH1	0	red		NO	YES	YES	Under60	fr50to60	Under25	MLH1	Healthy	Never	Healthy
+sample096.tsv	LS_57	LS	Cancer	m	34,6	73,8	two	MSH2	1	blue	NO		NO	NO	Over60	Over60	Over25	MSH2	Path_MMR_ca	Current_ca	Cancer
+sample097.tsv	LS_58	LS	Healthy	m	NA	75,6	three	MLH1	1	blue			YES	YES	Over60	Over60	NA	MLH1	Healthy	Prev_ca	Healthy
+sample098.tsv	SR_15	SRME	Cancer	m	24,3	77,3	three	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample099.tsv	SR_16	SRME	Cancer	f	20,8	45,5	one	NA	NA						Under60	Under50	Under25	None	SR_ca	Current_ca	Cancer
+sample100.tsv	LS_59	LS	Healthy	m	NA	56,9	one	MLH1	0	blue	YES	YES	YES	YES	Under60	fr50to60	NA	MLH1	Healthy	Never	Healthy
+sample101.tsv	SR_17	SRME	Cancer	f	29,4	67,7	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample102.tsv	SR_18	SRME	Cancer	m	25,5	54,1	one	NA	NA						Under60	fr50to60	Over25	None	SR_ca	Current_ca	Cancer
+sample103.tsv	CT_26	CTRL	Healthy	f	32	51	one	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample104.tsv	LS_60	LS	Healthy	m	40,2	62,8	three	MLH1	1	blue			YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample105.tsv	CT_27	CTRL	Healthy	f	18,4	48	one	NA	NA						Under60	Under50	Under25	None	Healthy		Healthy
+sample106.tsv	CT_28	CTRL	Healthy	m	33,6	53	three	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample107.tsv	CT_29	CTRL	Healthy	f	26,6	75	two	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample108.tsv	CT_30	CTRL	Healthy	m	24,4	59	two	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample109.tsv	CT_31	CTRL	Healthy	m	27,3	60	three	NA	NA						Over60	Over60	Over25	None	Healthy		Healthy
+sample110.tsv	LS_61	LS	Healthy	f	26,4	74,4	three	MLH1	1	red			YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample111.tsv	LS_62	LS	Cancer	m	NA	52,5	one	MLH1	1	blue	NO		NO	YES	Under60	fr50to60	NA	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample112.tsv	SR_19	SRME	Cancer	m	39,4	62,7	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample113.tsv	SR_20	SRME	Cancer	m	42,3	67,2	one	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample114.tsv	SR_21	SRME	Cancer	f	27,3	52,4	one	NA	NA						Under60	fr50to60	Over25	None	SR_ca	Current_ca	Cancer
+sample115.tsv	SR_22	SRME	Cancer	f	27,1	84,8	two	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample116.tsv	LS_63	LS	Adenoma	m	25,7	43,4	two	MLH1	0	blue		NO	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample117.tsv	LS_64	LS	Healthy	f	24,7	45,8	one	MLH1	0	red	YES	YES	YES	YES	Under60	Under50	Under25	MLH1	Healthy	Never	Healthy
+sample118.tsv	LS_65	LS	Healthy	f	23,5	31,5	two	MSH2	0	red	YES	YES	YES	NO	Under60	Under50	Under25	MSH2	Healthy	Never	Healthy
+sample119.tsv	LS_66	LS	Adenoma	m	34,3	65,1	two	MSH6	1	blue		NO	YES	NO	Over60	Over60	Over25	MSH6	Healthy	Prev_ca	Healthy
+sample120.tsv	LS_67	LS	Healthy	f	44,8	55,2	one	MLH1	1	red			YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample121.tsv	CT_32	CTRL	Healthy	f	29,1	47	one	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample122.tsv	LS_68	LS	Adenoma	m	24,2	76	one	MSH6	1	blue		NO	YES	NO	Over60	Over60	Under25	MSH6	Healthy	Prev_ca	Healthy
+sample123.tsv	SR_23	SRME	Cancer	f	28	74,9	two	NA	NA						Over60	Over60	Over25	None	SR_ca	Current_ca	Cancer
+sample124.tsv	SR_24	SRME	Cancer	m	19,4	80,6	one	NA	NA						Over60	Over60	Under25	None	SR_ca	Current_ca	Cancer
+sample125.tsv	LS_69	LS	Adenoma	f	20,3	49,5	one	MSH2	1	red		NO	YES	NO	Under60	Under50	Under25	MSH2	Healthy	Prev_ca	Healthy
+sample126.tsv	LS_70	LS	Cancer	m	NA	58,6	one	MSH6	1	blue	NO		NO	NO	Under60	fr50to60	NA	MSH6	Path_MMR_ca	Current_ca	Cancer
+sample127.tsv	LS_71	LS	Healthy	m	23,7	61,4	two	MSH2	1	blue			YES	NO	Over60	Over60	Under25	MSH2	Healthy	Prev_ca	Healthy
+sample128.tsv	LS_72	LS	Adenoma	f	28,7	66,8	three	MSH2	1	red		NO	YES	NO	Over60	Over60	Over25	MSH2	Healthy	Prev_ca	Healthy
+sample129.tsv	CT_33	CTRL	Healthy	f	23,5	53	three	NA	NA						Under60	fr50to60	Under25	None	Healthy		Healthy
+sample130.tsv	CT_34	CTRL	Healthy	f	22,4	43	three	NA	NA						Under60	Under50	Under25	None	Healthy		Healthy
+sample131.tsv	LS_73	LS	Healthy	m	26,8	58,2	two	MLH1	0	blue	YES	YES	YES	YES	Under60	fr50to60	Over25	MLH1	Healthy	Never	Healthy
+sample132.tsv	LS_74	LS	Healthy	f	NA	65	three	MLH1	1	red			YES	YES	Over60	Over60	NA	MLH1	Healthy	Prev_ca	Healthy
+sample133.tsv	LS_75	LS	Adenoma	f	44,2	67	one	MSH6	1	red		NO	YES	NO	Over60	Over60	Over25	MSH6	Healthy	Prev_ca	Healthy
+sample134.tsv	LS_76	LS	Healthy	m	34,8	49	one	MLH1	1	blue			YES	YES	Under60	Under50	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample135.tsv	LS_77	LS	Cancer	m	25,2	74,4	three	MLH1	1	blue	NO		NO	YES	Over60	Over60	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample136.tsv	LS_78	LS	Healthy	f	29,8	64,4	three	MLH1	1	red			YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample137.tsv	LS_79	LS	Healthy	m	33	43,7	two	MLH1	1	blue			YES	YES	Under60	Under50	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample138.tsv	LS_80	LS	Healthy	m	27,4	51,6	two	PMS2	1	blue			YES	NO	Under60	fr50to60	Over25	PMS2	Healthy	Prev_ca	Healthy
+sample139.tsv	LS_81	LS	Cancer	f	27,5	57,1	three	MLH1	1	red	NO		NO	YES	Under60	fr50to60	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample140.tsv	LS_82	LS	Healthy	f	37,7	45,3	one	MLH1	0	red	YES	YES	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample141.tsv	LS_83	LS	Chronic inflammation	m	24,6	69,7	three	MLH1	0	blue			YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample142.tsv	LS_84	LS	Future_ca	m	32,8	76,9	one	MSH6	1	blue		NO	NO	NO	Over60	Over60	Over25	MSH6	Path_MMR_ca	Current_ca	Cancer
+sample143.tsv	LS_85	LS	Cancer	f	27,1	61,2	one	MSH2	1	red	NO		NO	NO	Over60	Over60	Over25	MSH2	Path_MMR_ca	Current_ca	Cancer
+sample144.tsv	LS_86	LS	Adenoma	m	38,3	65,8	three	MLH1	1	blue		NO	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Prev_ca	Healthy
+sample145.tsv	LS_87	LS	Adenoma	f	29,3	49,2	one	MLH1	0	red		NO	YES	YES	Under60	Under50	Over25	MLH1	Healthy	Never	Healthy
+sample146.tsv	LS_88	LS	Adenoma	m	NA	69	three	MSH2	0	blue		NO	YES	NO	Over60	Over60	NA	MSH2	Healthy	Never	Healthy
+sample147.tsv	LS_89	LS	Healthy	f	29,1	54,5	three	MSH6	0	red	YES	YES	YES	NO	Under60	fr50to60	Over25	MSH6	Healthy	Never	Healthy
+sample148.tsv	LS_90	LS	Adenoma	f	26	68,9	three	MLH1	0	red		NO	YES	YES	Over60	Over60	Over25	MLH1	Healthy	Never	Healthy
+sample149.tsv	LS_91	LS	Healthy	m	18,8	66,6	three	MLH1	0	blue	YES	YES	YES	YES	Over60	Over60	Under25	MLH1	Healthy	Never	Healthy
+sample150.tsv	CT_35	CTRL	Healthy	f	37	54	one	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample151.tsv	LS_92	LS	Healthy	f	24	45,4	one	MSH2	1	red			YES	NO	Under60	Under50	Under25	MSH2	Healthy	Prev_ca	Healthy
+sample152.tsv	LS_93	LS	Future_ca	m	26,8	41	three	MLH1	1	blue		NO	NO	YES	Under60	Under50	Over25	MLH1	Path_MMR_ca	Current_ca	Cancer
+sample153.tsv	CT_36	CTRL	Healthy	f	34,3	52	one	NA	NA						Under60	fr50to60	Over25	None	Healthy		Healthy
+sample154.tsv	CT_37	CTRL	Healthy	f	39	49	three	NA	NA						Under60	Under50	Over25	None	Healthy		Healthy
+sample155.tsv	LS_94	LS	Healthy	m	NA	71,8	three	MSH2	0	blue	YES	YES	YES	NO	Over60	Over60	NA	MSH2	Healthy	Never	Healthy
