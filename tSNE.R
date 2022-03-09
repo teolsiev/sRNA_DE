@@ -17,7 +17,7 @@ library(gridGraphics)
 
 # Data setup----
 # Import count data
-counts <- read.csv("FilteredCounts.txt",header=TRUE,sep="\t") # Filtered counts
+counts <- read.csv("FilteredCounts.txt",header=TRUE,sep="\t") # Filtered counts, this file must be generated with step_1 script
 
 # Import phenotype data
 targets<- read.csv("phenodata_age.txt",sep="\t",header=TRUE, dec = ",")
