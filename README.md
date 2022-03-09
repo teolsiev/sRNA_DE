@@ -4,4 +4,3 @@ Differential expression analysis step-by-step for small-RNA sequencing data used
 ## Files
 - Phenodata_age = experimental setup
 - rawCounts = c-miR counts after preprocessing
-- groomed.md = analysis workflow
