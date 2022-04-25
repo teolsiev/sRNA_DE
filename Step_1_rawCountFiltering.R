@@ -48,7 +48,7 @@ cpm <- cpm(myDGEList)
 # Make a new filtered raw c-miR counts file----
 
 # Create a new filtered DGEList
-myDGEList.filtered <- myDGEList[(keepers),] # OR myDGEList.filtered <- myDGEList[(keepers|keep1|keep2|keep3),]
+myDGEList.filtered <- myDGEList[(keepers),]
 
 # Create a new filtered raw counts matrix
 FilteredCounts <- counts[which(rownames(counts)%in%rownames(myDGEList.filtered$counts)),]
