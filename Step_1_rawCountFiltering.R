@@ -28,14 +28,6 @@ colnames(counts) <-targets$Filename
 
 # Filtering of raw c-miR counts----
 
-# Filter phenodata based on sample type
-Group1  <- which(targets$Type=="LS")
-Group2  <- which(targets$Type=="CTRL")
-Group3  <- which(targets$Type=="SRME")
-ls <- targets[Group1,]
-ctrl <- targets[Group2,]
-srme <- targets[Group3,]
-
 # Create a digital gene expression list (DGEList) using edgeR
 myDGEList <- DGEList(counts = counts)
 
@@ -43,7 +35,7 @@ myDGEList <- DGEList(counts = counts)
 cpm <- cpm(myDGEList)
 
 # Keep only the c-miRs with >1 CPM in at least 70% of samples
- keepers <- rowSums(cpm>1)>=108  #70% of 155
+keepers <- rowSums(cpm>1)>=108  #70% of 155
 
 # Make a new filtered raw c-miR counts file----
 
