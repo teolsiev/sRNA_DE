@@ -43,7 +43,7 @@ myDGEList <- DGEList(counts = counts)
 cpm <- cpm(myDGEList)
 
 # Keep only the c-miRs with >1 CPM in at least 70% of samples in a subgroup
-keepers <- rowSums(cpm>1)>=108  #70% of 155
+# keepers <- rowSums(cpm>1)>=108  #70% of 155
 
 # Filter the subgroups (LS,CTRL and SRME)
 cpm1 <- cpm[,which(colnames(cpm)%in%ls$Sample)]
@@ -57,7 +57,7 @@ keep3<- rowSums(cpm3>=1) >= 16   #  70% of 24
 # Make a new filtered raw c-miR counts file----
 
 # Create a new filtered DGEList
-myDGEList.filtered <- myDGEList[(keepers|keep1|keep2|keep3),]
+myDGEList.filtered <- myDGEList[(keep1|keep2|keep3),] # OR myDGEList.filtered <- myDGEList[(keepers|keep1|keep2|keep3),]
 
 # Create a new filtered raw counts matrix
 FilteredCounts <- counts[which(rownames(counts)%in%rownames(myDGEList.filtered$counts)),]
