@@ -24,7 +24,7 @@ counts <- read.csv("rawCounts.tsv",header=TRUE,sep="\t")
 targets<- read.csv("phenodata_age.txt",sep="\t",header=TRUE)
 
 # Add column names
-colnames(counts) <-targets$Filename
+colnames(counts) <-targets$Type
 
 # Filtering of raw c-miR counts----
 
